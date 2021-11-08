@@ -70,20 +70,8 @@
     <Compile Include="LoanReport.Designer.cs">
       <DependentUpon>LoanReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pos.Designer.cs">
-      <DependentUpon>Pos.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student_StructForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Student_StructForm.Designer.cs">
-      <DependentUpon>Student_StructForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Loan.resx">
       <DependentUpon>Loan.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,9 +84,6 @@
     <EmbeddedResource Include="LoanReport.resx">
       <DependentUpon>LoanReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pos.resx">
-      <DependentUpon>Pos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -109,9 +94,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Student_StructForm.resx">
-      <DependentUpon>Student_StructForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

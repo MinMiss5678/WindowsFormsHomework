@@ -32,13 +32,13 @@ namespace WindowsFormsHomework
             this.SayHiButton = new System.Windows.Forms.Button();
             this.SayHelloButton = new System.Windows.Forms.Button();
             this.constellationTextBox = new System.Windows.Forms.TextBox();
-            this.constellationLabel = new System.Windows.Forms.Label();
+            this.constellationlabel = new System.Windows.Forms.Label();
             this.sexTextBox = new System.Windows.Forms.TextBox();
-            this.sexLabel = new System.Windows.Forms.Label();
+            this.sexlabel = new System.Windows.Forms.Label();
             this.englishNameTextBox = new System.Windows.Forms.TextBox();
-            this.englishNameLabel = new System.Windows.Forms.Label();
+            this.englishNamelabel = new System.Windows.Forms.Label();
             this.nameTextBox = new System.Windows.Forms.TextBox();
-            this.nameLabel = new System.Windows.Forms.Label();
+            this.namelabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // SayHiButton
@@ -71,15 +71,15 @@ namespace WindowsFormsHomework
             this.constellationTextBox.Size = new System.Drawing.Size(175, 40);
             this.constellationTextBox.TabIndex = 17;
             // 
-            // constellationLabel
+            // constellationlabel
             // 
-            this.constellationLabel.AutoSize = true;
-            this.constellationLabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.constellationLabel.Location = new System.Drawing.Point(78, 254);
-            this.constellationLabel.Name = "constellationLabel";
-            this.constellationLabel.Size = new System.Drawing.Size(93, 27);
-            this.constellationLabel.TabIndex = 16;
-            this.constellationLabel.Text = "星座：";
+            this.constellationlabel.AutoSize = true;
+            this.constellationlabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.constellationlabel.Location = new System.Drawing.Point(78, 254);
+            this.constellationlabel.Name = "constellationlabel";
+            this.constellationlabel.Size = new System.Drawing.Size(93, 27);
+            this.constellationlabel.TabIndex = 16;
+            this.constellationlabel.Text = "星座：";
             // 
             // sexTextBox
             // 
@@ -89,15 +89,15 @@ namespace WindowsFormsHomework
             this.sexTextBox.Size = new System.Drawing.Size(175, 40);
             this.sexTextBox.TabIndex = 15;
             // 
-            // sexLabel
+            // sexlabel
             // 
-            this.sexLabel.AutoSize = true;
-            this.sexLabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.sexLabel.Location = new System.Drawing.Point(78, 195);
-            this.sexLabel.Name = "sexLabel";
-            this.sexLabel.Size = new System.Drawing.Size(93, 27);
-            this.sexLabel.TabIndex = 14;
-            this.sexLabel.Text = "性別：";
+            this.sexlabel.AutoSize = true;
+            this.sexlabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.sexlabel.Location = new System.Drawing.Point(78, 195);
+            this.sexlabel.Name = "sexlabel";
+            this.sexlabel.Size = new System.Drawing.Size(93, 27);
+            this.sexlabel.TabIndex = 14;
+            this.sexlabel.Text = "性別：";
             // 
             // englishNameTextBox
             // 
@@ -107,15 +107,15 @@ namespace WindowsFormsHomework
             this.englishNameTextBox.Size = new System.Drawing.Size(175, 40);
             this.englishNameTextBox.TabIndex = 13;
             // 
-            // englishNameLabel
+            // englishNamelabel
             // 
-            this.englishNameLabel.AutoSize = true;
-            this.englishNameLabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.englishNameLabel.Location = new System.Drawing.Point(78, 136);
-            this.englishNameLabel.Name = "englishNameLabel";
-            this.englishNameLabel.Size = new System.Drawing.Size(165, 27);
-            this.englishNameLabel.TabIndex = 12;
-            this.englishNameLabel.Text = "English Name:";
+            this.englishNamelabel.AutoSize = true;
+            this.englishNamelabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.englishNamelabel.Location = new System.Drawing.Point(78, 136);
+            this.englishNamelabel.Name = "englishNamelabel";
+            this.englishNamelabel.Size = new System.Drawing.Size(165, 27);
+            this.englishNamelabel.TabIndex = 12;
+            this.englishNamelabel.Text = "English Name:";
             // 
             // nameTextBox
             // 
@@ -125,15 +125,15 @@ namespace WindowsFormsHomework
             this.nameTextBox.Size = new System.Drawing.Size(175, 40);
             this.nameTextBox.TabIndex = 11;
             // 
-            // nameLabel
+            // namelabel
             // 
-            this.nameLabel.AutoSize = true;
-            this.nameLabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.nameLabel.Location = new System.Drawing.Point(78, 71);
-            this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(93, 27);
-            this.nameLabel.TabIndex = 10;
-            this.nameLabel.Text = "姓名：";
+            this.namelabel.AutoSize = true;
+            this.namelabel.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.namelabel.Location = new System.Drawing.Point(78, 71);
+            this.namelabel.Name = "namelabel";
+            this.namelabel.Size = new System.Drawing.Size(93, 27);
+            this.namelabel.TabIndex = 10;
+            this.namelabel.Text = "姓名：";
             // 
             // Hello
             // 
@@ -144,13 +144,13 @@ namespace WindowsFormsHomework
             this.Controls.Add(this.SayHiButton);
             this.Controls.Add(this.SayHelloButton);
             this.Controls.Add(this.constellationTextBox);
-            this.Controls.Add(this.constellationLabel);
+            this.Controls.Add(this.constellationlabel);
             this.Controls.Add(this.sexTextBox);
-            this.Controls.Add(this.sexLabel);
+            this.Controls.Add(this.sexlabel);
             this.Controls.Add(this.englishNameTextBox);
-            this.Controls.Add(this.englishNameLabel);
+            this.Controls.Add(this.englishNamelabel);
             this.Controls.Add(this.nameTextBox);
-            this.Controls.Add(this.nameLabel);
+            this.Controls.Add(this.namelabel);
             this.Name = "Hello";
             this.Text = "Hello";
             this.ResumeLayout(false);
@@ -163,12 +163,12 @@ namespace WindowsFormsHomework
         private System.Windows.Forms.Button SayHiButton;
         private System.Windows.Forms.Button SayHelloButton;
         private System.Windows.Forms.TextBox constellationTextBox;
-        private System.Windows.Forms.Label constellationLabel;
+        private System.Windows.Forms.Label constellationlabel;
         private System.Windows.Forms.TextBox sexTextBox;
-        private System.Windows.Forms.Label sexLabel;
+        private System.Windows.Forms.Label sexlabel;
         private System.Windows.Forms.TextBox englishNameTextBox;
-        private System.Windows.Forms.Label englishNameLabel;
+        private System.Windows.Forms.Label englishNamelabel;
         private System.Windows.Forms.TextBox nameTextBox;
-        private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.Label namelabel;
     }
 }

@@ -32,7 +32,6 @@ namespace WindowsFormsHomework
             this.loanButton = new System.Windows.Forms.Button();
             this.helloButton = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.PosButton = new System.Windows.Forms.Button();
             this.bubblePicture = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -44,7 +43,6 @@ namespace WindowsFormsHomework
             // 
             this.loanButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.loanButton.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.loanButton.Location = new System.Drawing.Point(24, 66);
             this.loanButton.Name = "loanButton";
             this.loanButton.Size = new System.Drawing.Size(212, 23);
@@ -57,7 +55,6 @@ namespace WindowsFormsHomework
             // 
             this.helloButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.helloButton.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.helloButton.Location = new System.Drawing.Point(24, 24);
             this.helloButton.Name = "helloButton";
             this.helloButton.Size = new System.Drawing.Size(212, 23);
@@ -77,7 +74,6 @@ namespace WindowsFormsHomework
             this.splitContainer1.Panel1.AutoScroll = true;
             this.splitContainer1.Panel1.BackgroundImage = global::WindowsFormsHomework.Properties.Resources.pngtree_chinese_style_antiquity_ink_background_picture_image_953480;
             this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.splitContainer1.Panel1.Controls.Add(this.PosButton);
             this.splitContainer1.Panel1.Controls.Add(this.helloButton);
             this.splitContainer1.Panel1.Controls.Add(this.loanButton);
             // 
@@ -89,19 +85,6 @@ namespace WindowsFormsHomework
             this.splitContainer1.Size = new System.Drawing.Size(800, 336);
             this.splitContainer1.SplitterDistance = 253;
             this.splitContainer1.TabIndex = 25;
-            // 
-            // PosButton
-            // 
-            this.PosButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PosButton.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.PosButton.Location = new System.Drawing.Point(24, 110);
-            this.PosButton.Name = "PosButton";
-            this.PosButton.Size = new System.Drawing.Size(212, 23);
-            this.PosButton.TabIndex = 2;
-            this.PosButton.Text = "Pos";
-            this.PosButton.UseVisualStyleBackColor = true;
-            this.PosButton.Click += new System.EventHandler(this.PosButton_Click);
             // 
             // bubblePicture
             // 
@@ -140,7 +123,6 @@ namespace WindowsFormsHomework
         private System.Windows.Forms.Button helloButton;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.PictureBox bubblePicture;
-        private System.Windows.Forms.Button PosButton;
     }
 }
 

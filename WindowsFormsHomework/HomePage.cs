@@ -1,63 +1,53 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsHomework
 {
     public partial class HomePage : Form
     {
-        private readonly List<IPanel> windowsChildren = new List<IPanel>();
-
         public HomePage()
         {
             InitializeComponent();
         }
+       
+        List<object> windowsChildren = new List<object>();
 
         private void helloButton_Click(object sender, EventArgs e)
         {
-            FactoryPanel(new Hello());
+            closeWindows();
+
+            Hello windowsHello = new Hello();
+            windowsChildren.Add(windowsHello);
+            windowsHello.MdiParent = this;//設定窗體的父子關係
+            windowsHello.Parent = splitContainer1.Panel2;//設定子窗體的容器為父窗體中的Panel
+            windowsHello.Show();
         }
 
         private void loanButton_Click(object sender, EventArgs e)
         {
-            FactoryPanel(new Loan());
+            closeWindows();
+
+            Loan windowsLoan = new Loan();
+            windowsChildren.Add(windowsLoan);
+            windowsLoan.MdiParent = this;
+            windowsLoan.Parent = splitContainer1.Panel2;
+            windowsLoan.Show();
         }
 
-        private void PosButton_Click(object sender, EventArgs e)
+        private void closeWindows()
         {
-            FactoryPanel(new Pos());
-        }
-
-        private void FactoryPanel(IPanel panel)
-        {
-            panel.Open(this, splitContainer1.Panel2, CloseWindows);
-            windowsChildren.Add(panel);
-        }
-
-        private void CloseWindows()
-        {
-            foreach (var i in windowsChildren)
+            foreach (Form i in windowsChildren)
             {
                 i.Close();
             }
-            windowsChildren.Clear();
-        }
-    }
-
-    internal interface IPanel
-    {
-        void Open(Form mdiParent, Control parent, Action onOpen);
-        void Close();
-    }
-
-    public class MyForm : Form, IPanel
-    {
-        public void Open(Form mdiParent, Control parent, Action onOpen)
-        {
-            MdiParent = mdiParent; //設定窗體的父子關係
-            Parent = parent; //設定子窗體的容器為父窗體中的Panel
-            onOpen?.Invoke();
-            Show();
         }
     }
 }
+
